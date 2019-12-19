@@ -1,19 +1,22 @@
 <template>
-  <v-layout column style="background: white;">
+  <v-content style="background: white;">
     <FullscreenComponent />
     <IndexContent />
-  </v-layout>
+    <Footer />
+  </v-content>
 </template>
 
 <script>
 import FullscreenComponent from '../components/FullscreenComponent.vue'
 import IndexContent from '../components/index/IndexContent.vue'
+import Footer from '../components/partials/Footer.vue'
 
 export default {
 
   components: {
     FullscreenComponent,
-    IndexContent
+    IndexContent,
+    Footer
   }
 }
 </script>

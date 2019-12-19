@@ -5,10 +5,10 @@
         <MyPhoto />
       </v-col>
       <v-col cols="12" class="title text-center px-4">
-        My name is Matthew Kevin Amadeus, commonly abbreviated as MK. I’m a student who is eager to learn in the fields and branches of computer science. I look forward upon cooperating with you!
+        My name is Matthew Kevin Amadeus, commonly abbreviated as MK. I’m a student who is eager to learn in the fields and branches of computer science and software engineering. I look forward upon cooperating with you!
       </v-col>
       <v-col cols="10" sm="6" md="4">
-        <v-responsive aspect-ratio="1" class="pa-5">
+        <v-responsive aspect-ratio="1" class="pa-2">
           <InfoCardComponent
             :info-title="'Biodata'"
             :icon-name="'mdi-account'"
@@ -17,19 +17,21 @@
         </v-responsive>
       </v-col>
       <v-col cols="10" sm="6" md="4">
-        <v-responsive aspect-ratio="1" class="pa-5">
+        <v-responsive aspect-ratio="1" class="pa-2">
           <InfoCardComponent
             :info-title="'Education'"
             :icon-name="'fa-graduation-cap'"
+            :icon-color="'yellow darken-2'"
             :info-text="'Currently studying in Institut Teknologi Bandung as a Informatics Undergraduate.'"
           />
         </v-responsive>
       </v-col>
       <v-col cols="10" sm="6" md="4">
-        <v-responsive aspect-ratio="1" class="pa-5">
+        <v-responsive aspect-ratio="1" class="pa-2">
           <InfoCardComponent
             :info-title="'Interest'"
-            :icon-name="'mdi-account'"
+            :icon-name="'fa-code'"
+            :icon-color="'red darken-1'"
             :info-text="'Have been interested in programming since middle school; continuing to develop new skills.'"
           />
         </v-responsive>
