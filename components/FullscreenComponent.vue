@@ -5,7 +5,7 @@
         <h1 class="display-4 font-weight-bold">
           Welcome to my website.
         </h1>
-        <h3 class="subtitle-3 mt-6">
+        <h3 class="display-1 mt-6">
           My name is MK, and here's a little about myself.
         </h3>
       </v-col>

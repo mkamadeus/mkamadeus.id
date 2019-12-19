@@ -1,9 +1,9 @@
 <template>
-  <img src="../../static/mk_selfphoto.jpg">
+  <v-img :src="require('~/assets/mk_selfphoto.jpg')" contain aspect-ratio="1" width="250" class="my-photo" />
 </template>
 
 <style lang="scss" scoped>
-img {
+.my-photo {
   box-shadow: 0 5px 19px rgba(0,0,0,0.30), 0 4px 6px rgba(0,0,0,0.22);
   width:50%;
   max-width:100%;
