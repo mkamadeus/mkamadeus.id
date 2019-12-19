@@ -22,7 +22,7 @@
             :info-title="'Education'"
             :icon-name="'fa-graduation-cap'"
             :icon-color="'yellow darken-2'"
-            :info-text="'Currently studying in Institut Teknologi Bandung as a Informatics Undergraduate.'"
+            :info-text="'Currently studying in Institut Teknologi Bandung as an Informatics Undergraduate.'"
           />
         </v-responsive>
       </v-col>

@@ -1,9 +1,9 @@
 <template>
-  <v-content style="background: white;">
+  <v-flex style="background: white;">
     <FullscreenComponent />
     <IndexContent />
     <Footer />
-  </v-content>
+  </v-flex>
 </template>
 
 <script>
