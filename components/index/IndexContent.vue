@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container id="content">
     <v-row wrap justify="center" align="center">
       <v-col cols="12" class="my-4" align="center">
         <MyPhoto />

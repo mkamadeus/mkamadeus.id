@@ -1,22 +1,19 @@
 <template>
-  <v-flex style="background: white;">
+  <v-container fluid style="background: white;" class="pa-0">
     <FullscreenComponent />
     <IndexContent />
-    <Footer />
-  </v-flex>
+  </v-container>
 </template>
 
 <script>
 import FullscreenComponent from '../components/FullscreenComponent.vue'
 import IndexContent from '../components/index/IndexContent.vue'
-import Footer from '../components/partials/Footer.vue'
 
 export default {
 
   components: {
     FullscreenComponent,
-    IndexContent,
-    Footer
+    IndexContent
   }
 }
 </script>

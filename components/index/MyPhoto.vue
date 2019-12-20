@@ -1,5 +1,5 @@
 <template>
-  <v-img :src="require('~/assets/mk_selfphoto.jpg')" contain aspect-ratio="1" width="250" class="my-photo" />
+  <v-img :src="require('~/assets/self_photo.jpg')" contain aspect-ratio="1" width="250" class="my-photo" />
 </template>
 
 <style lang="scss" scoped>
